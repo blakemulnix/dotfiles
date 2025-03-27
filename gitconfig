@@ -1,0 +1,21 @@
+[alias]
+    # Status shortcuts
+    s = status
+    st = status -sb
+    
+    # Commit shortcuts
+    cm = commit -m
+    ca = commit --amend
+    
+    # Branch shortcuts
+    co = checkout
+    cb = checkout -b
+    br = branch
+    
+    # Log shortcuts
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    
+    # Other useful aliases
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
