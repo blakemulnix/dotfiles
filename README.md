@@ -1,6 +1,10 @@
 # Setup for use
 
 ```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+brew install powerlevel10k
+
 cp ./.zshrc ./.p10k.zsh ~/
 
 cp gitconfig ~/.gitconfig
